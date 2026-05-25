@@ -1,0 +1,21 @@
+appId: com.pharmacy.pms
+productName: Pharmacy PMS
+directories:
+  output: release
+  buildResources: build
+files:
+  - dist/**/*
+  - dist-electron/**/*
+  - package.json
+mac:
+  target: dmg
+  icon: build/icon.icns
+win:
+  target: nsis
+  icon: build/icon.ico
+linux:
+  target: AppImage
+  icon: build/icon.png
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
