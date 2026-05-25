@@ -1,0 +1,98 @@
+```
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+target/
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+*.env.*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git/modules/
+*.tmproj
+*.sublime-workspace
+*.komodoproject
+nbproject/
+*.nbc
+*.nbbuild
+*.nbmake
+.noseids
+.noserc
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+
+# Electron specific
+electron/dist/
+electron/build/
+release/
+*.app
+*.exe
+*.msi
+*.dmg
+*.deb
+*.rpm
+
+# TypeScript/JavaScript
+tsconfig.tsbuildinfo
+*.tsbuildinfo
+.next/
+.nuxt/
+.vuepress/dist
+.dist/
+static/.next/
+coverage/
+nyc-output/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.class
+```
